@@ -47,7 +47,7 @@ def main():
     st.title("Cricket Season Selection App")
     st.markdown("---")
     st.subheader("Filters")
-    df = pd.read_csv("/home/kpit/Downloads/archive/matches.csv")
+    df = pd.read_csv("https://github.com/niteshgupta123/streamlit_app/blob/main/matches.csv")
     filtered_data, win_lose_counts = apply_filters(df)
     
     if filtered_data is not None:
