@@ -4,7 +4,7 @@ import altair as alt
 
 # Set Streamlit page configuration
 st.set_page_config(
-    page_title="Nitesh-baba",
+    page_title="IPL-Stats_Dashboard",
     layout="wide",
     page_icon="🏂",
     initial_sidebar_state="expanded"
